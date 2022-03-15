@@ -35,7 +35,7 @@ func init() {
 	}
 
 	var connectionString = envMap["MONGO_URL"]
-	// const connectionString = "mongodb+srv://JayRanpariya:jay04052002@node.tnxl6.mongodb.net/Movies-api?retryWrites=true&w=majority"
+	
 
 	//client option
 	clientOptions := options.Client().ApplyURI(connectionString)
